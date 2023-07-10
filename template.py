@@ -2,7 +2,7 @@ import os
 from pathlib import Path 
 import logging #for logging information of runtime etc...
 
-logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
+logging.basicConfig(level=logging.INFO, format='[%(asctime)s: %(message)s:]')
 
 project_name = 'text_summarization'
 
